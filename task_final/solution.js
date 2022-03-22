@@ -36,6 +36,14 @@
 function sendRequest(name, phone, address, goods, sum) {
     //    let data = {goods: [], order: {}};
     let client = '';
+    let order = {
+        address, sum
+    };
+    let goods = [
+        {
+        title, count
+    }
+    ];
     let data = { 
         client, order: {}, goods: [] 
     };
